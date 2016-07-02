@@ -13,5 +13,6 @@ target/
 bin/**
 .classpath
 .settings/
+.gradle
 
 

@@ -93,9 +93,5 @@ public class FunctionalArraySort {
 		}
 	}
 
-	private static void printStrings(String[] strings) { 
-		out.println(strings[0]);
-	}
-	
-	
+
 }

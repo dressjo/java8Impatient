@@ -21,7 +21,7 @@ public class ex3 {
 		
 		String[] dirsLambda = new File("c:/").list((File file, String name) -> { return file.isDirectory();});
 		
-		for(String file : dirs) { 
+		for(String file : dirsLambda) { 
 			System.out.println(file);
 		}
 		
