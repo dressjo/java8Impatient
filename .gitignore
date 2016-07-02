@@ -1,0 +1,17 @@
+# Directories #
+/build/
+/bin/
+target/
+ 
+ *.class
+  
+ ######################
+# Eclipse
+######################
+ 
+.project
+bin/**
+.classpath
+.settings/
+
+
