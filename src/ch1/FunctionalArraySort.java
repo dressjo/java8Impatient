@@ -29,7 +29,7 @@ public class FunctionalArraySort {
 		};
 		Arrays.sort(words, comp);
 		
-		// Functional, use lambda expression withoug declaring assigning it to a class
+		// Functional, use lambda expression without declaring assigning it to a class
 		Arrays.sort(words, (string1, string2) -> { 
 			return string1.compareTo(string2);});
 		
